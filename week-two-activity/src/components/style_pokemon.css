@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Comic';
+    src: url('../fonts/action.ttf');
+}
+
+@font-face {
+    font-family: 'Game';
+    src: url(../fonts/game.ttf);
+}
+
+.image{
+    border-radius: 7px;
+    border: 5px;
+    border-color:#FFCC01;
+    border-style: solid;
+}
+
+.title{
+    font-family: 'Comic';
+    color: #FFCC01;
+    -webkit-text-stroke: 4px #3166B0;
+}
+
+.button{
+    font-family: 'Game';
+    font-size: 30px;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    text-shadow: 3px 2px 1px #9daef5;
+    -webkit-box-shadow: 6px 5px 24px #666666;
+    -moz-box-shadow: 6px 5px 24px #666666;
+    box-shadow: 6px 5px 24px #666666;
+    background-color: #FFCC01;
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+}

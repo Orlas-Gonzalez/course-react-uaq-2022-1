@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Comic';
+    src: url('../fonts/action.ttf');
+}
+
+@font-face {
+    font-family: 'Game';
+    src: url(../fonts/game.ttf);
+}
+
+@font-face {
+    font-family: 'Jack';
+    src: url(../fonts/jack.TTF);
+}
+
+.containerMain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #303030;
+}
+
+.title{
+    font-family: 'Comic';
+    color: #FFCC01;
+    -webkit-text-stroke: 4px #3166B0;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.subTitle{
+    font-family: 'Game';
+    font-size: 30px;
+    color: white;
+}
+
+.placeH{
+    text-align: center;
+    font-family: 'Jack';
+}
+
+.formContainer{
+    width: 750px;
+    text-align: center;
+}
